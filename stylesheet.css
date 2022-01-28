@@ -1,0 +1,107 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: #ffffee;/* フォントの色 */
+  font-size: 90px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  border-style: solid;/* 線の種類 */
+  border-color: pink;/* 線の色 */
+  border-width: 30px;/* 線の太さ */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  border-radius: 90px;/* 枠線の角丸 */
+  padding: 20px;/* 内側の余白 */
+  margin: 30px;/* 外側の余白 */
+  filter: drop-shadow(0 0 5px white);
+
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(https://toda.org/assets/images/global-outlook/global-outlook-nuclear-prohibition-journey-cover.jpg);/* 背景画像 */
+  height: 450px;/* 高さ */
+  padding-top: 150px;/* 上がわの余白 */
+  background-size: cover;
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.shop {
+  background-color: #ffffee;/* 背景の色 */
+  color: #663300;
+  padding: 30px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px;
+  background-image: url(img/wood.jpg);
+}
+
+/* h2見出し */
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.photo p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+.photo div {
+  background-color: #ffffff;
+  width: 240px;/* 横幅を指定する */
+  padding: 15px;
+  float: left;
+  margin: 10px;
+  box-shadow: 10px 10px 20px #000000;/* 影を指定する */
+}
+
+
+.clearfix{zoom:1}
+.clearfix::after{content:"";clear:both;display:block}#player{position:fixed;bottom:-38px;left:0;width:100%;height:38px;color:#fff;border-top:2px solid #000;background-color:#1428ff;z-index:8;transition:all .3s 1.5s ease}#player.loaded{bottom:0}#player .playerInner{width:945px;margin:0 auto}#player .playerControl{float:left;margin-top:11px}#player .playerControl #prev{width:12px;height:16px;float:left;background:url(/shared/img/player/icon_prev.png) 12px 16px}#player .playerControl #play{margin-left:30px;width:14px;height:16px;float:left;background:url(/shared/img/player/icon_play.png) 14px 16px}#player .playerControl #play.pause{background:url(/shared/img/player/icon_pause.png) 14px 16px}#player .playerControl #next{margin-left:30px;width:12px;height:16px;float:left;background:url(/shared/img/player/icon_next.png) 12px 16px}#player .seek{float:left}#player .seek #currentTime{float:left;width:70px;line-height:38px;text-align:right}#player .seek #controlBar{float:left;padding:18px 0;margin-left:10px;height:38px}#player .seek #controlBar .backgroundBar{width:220px;height:2px;background-color:grey}#player .seek #controlBar .backgroundBar #activeBar{width:220px;height:2px;background-color:#fff}#player #coverImage{float:left;margin-left:20px;width:38px;height:38px}#player .songInformation{float:left;font-size:12px;margin-left:25px;line-height:38px}#player .songInformation #songTitle{float:left}#player .songInformation #songArtist{margin-left:20px;float:left}#player #volume{position:relative;float:right;width:22px;height:18px;margin-top:9px;background:url(/shared/img/player/icon_volume.png) 22px 18px}#player #volume.mute{background:url(/shared/img/player/icon_mute.png) 22px 18px}#player #volume .sliderFrame{display:none;position:relative;left:-3px;top:-95px;width:30px;height:95px;background:url(/shared/img/player/sliderframe.png) 30px 95px}#player #volume.over .sliderFrame{display:block}#volumeSlider{position:absolute;top:38px;left:-22px;-webkit-appearance:none;width:70px;height:8px;background:#d3d3d3;outline:0;cursor:pointer;transform:rotate(-90deg)}#volumeSlider::-webkit-slider-runnable-track{-webkit-appearance:none;height:2px;background:#999}#volumeSlider::-webkit-slider-thumb{-webkit-appearance:none;width:8px;height:8px;border-radius:4px;background:#1428ff;margin-top:-3px}#volumeSlider::-moz-range-track{-webkit-appearance:none;height:2px;background:#999}#volumeSlider::-moz-range-thumb{width:8px;height:8px;border-radius:4px;background:#1428ff;margin-top:-3px;box-sizing:border-box}#volumeSlider::-moz-focus-outer{border:0}#volumeSlider#volumeSlider::-ms-track{-webkit-appearance:none;height:2px;background:#999}#volumeSlider::-ms-thumb{width:8px;height:8px;border-radius:4px;background:#1428ff;margin-top:-3px;box-sizing:border-box}#volumeSlider::-ms-ticks-after,#volumeSlider::-ms-ticks-before{display:none}#volumeSlider::-ms-fill-lower{background:#1428ff}#volumeSlider::-ms-tooltip{display:none}#player #youtubeLink{margin-left:52px;font-size:12px;display:block;float:right;line-height:38px}#player #youtubeLink:active,#player #youtubeLink:hover,#player #youtubeLink:link,#player #youtubeLink:visited{color:#fff;text-decoration:none}#player #youtubeLink:after{display:inline-block;margin-left:7px;content:'';width:14px;height:13px;background:url(/shared/img/player/icon_blank.png) 14px 13px}@media screen and (max-width:1024px){#player{bottom:-60px;width:100%;height:60px;padding:0;color:#fff;border-top:2px solid #000;transition:all .3s 1.5s ease}#player .playerInner{height:60px;width:100%}#player #volume,#player #youtubeLink,#player .seek{display:none}#player .playerControl{float:right;margin-top:10px}#player .playerControl #prev{width:37px;height:37px;background:url(/shared/img/player/icon_prev_sp.png) 37px 37px;background-size:37px 37px}#player .playerControl #play{margin-left:0;width:37px;height:37px;background:url(/shared/img/player/icon_play_sp.png) 37px 37px;background-size:37px 37px}#player .playerControl #play.pause{background:url(/shared/img/player/icon_pause_sp.png) 37px 37px;background-size:37px 37px}#player .playerControl #next{margin-left:0;width:37px;height:37px;background:url(/shared/img/player/icon_next_sp.png) 37px 37px;background-size:37px 37px}#player #coverImage{margin-left:0;width:60px;height:60px}#player .songInformation{line-height:1.5em;margin-left:12px;font-size:1rem;width:auto;height:60px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;display:-ms-flexbox;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center}#player .songInformation #songArtist,#player .songInformation #songTitle{float:none;margin-left:0}}@media screen and (max-width:420px){#player .songInformation{font-size:3.4vw}}
